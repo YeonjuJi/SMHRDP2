@@ -327,8 +327,6 @@
                  const [dataTraffic, dataThresh] = event.data.split('\n');
                  const trafficData = JSON.parse(dataTraffic);
                  const thresholdData = JSON.parse(dataThresh);
-                 //console.log("trafficData : ", trafficData);
-                 //console.log("thresholdData : ", thresholdData);
             
                // 받은 데이터 처리
                if(!isPausedTraffic && trafficData && thresholdData){
